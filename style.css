@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 1vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #5376b3;
+}
+
+.title {
+  text-align: center;
+  font-size: 3.25rem;
+}
+
+.canvas {
+  position: absolute;
+  /* width: 500px; */
+  /* height: 100%; */
+  margin: 15vh auto;
+  left: 0;
+  right: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  position: absolute;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  content: "Depth-First-Search";
+  left: 0;
+  padding: 1.5rem 1rem 1rem 0.7rem;
+  border: 0;
+  width: 20vw;
+  background-color: #559dc3;
+  text-align: left;
+  font-size: 1.125rem;
+}
+button:hover {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .title {
+    font-size: 2rem;
+  }
+}
